@@ -11,8 +11,6 @@
     tools:context="com.londonappbrewery.destini.MainActivity"
     android:background="@drawable/background">
 
-
-
     <TextView
         android:id="@+id/storyTextView"
         android:text="@string/T1_Story"
@@ -24,7 +22,7 @@
         android:textColor="#ffffffff"/>
 
     <Button
-        android:id="@+id/buttonTop"
+        android:id="@+id/buttonAns1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/T1_Ans1"
@@ -39,19 +37,16 @@
         android:textSize="15sp"/>
 
     <Button
-        android:id="@+id/buttonBottom"
+        android:id="@+id/buttonAns2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/T1_Ans2"
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/buttonTop"
-        android:layout_alignStart="@+id/buttonTop"
-        android:layout_alignRight="@+id/buttonTop"
-        android:layout_alignEnd="@+id/buttonTop"
+        android:layout_alignLeft="@+id/buttonAns1"
+        android:layout_alignStart="@+id/buttonAns1"
+        android:layout_alignRight="@+id/buttonAns1"
+        android:layout_alignEnd="@+id/buttonAns1"
         android:background="#3498db"
         android:textColor="#ecf0f1"
         android:textSize="15sp"/>
-
-
-
 </RelativeLayout>
